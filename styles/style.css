@@ -10,6 +10,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/********** HEADER SECTION **********/
+
 header {
     background-color: #1f2937;
     min-width: 100%;
@@ -99,14 +101,46 @@ h1 {
     background-color: #2160c5;
 }
 
+/************* MAIN SECTION ************/
+
 h2 {
     font-size: clamp(1.5rem, 1vw + 1.2rem, 2.25rem);
     color: #1f2937;
     text-align: center;
     font-weight: 900;
-    margin: 3em 0;
+    margin: 2em 0;
     text-transform: capitalize;
-    }
+}
+
+.flex-container {
+    width: min(100%, 1140px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+}
+
+.flex-items {
+    width: min(250px, 20%);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-imgs {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.flex-label {
+    color: #1f2937;
+    text-align: center;
+    font-size: clamp(0.8rem, 0.7vw + 0.4rem, 1.1rem);
+}
+
+.items-name {
+    font-weight: 700;
+}
 
 
 
@@ -124,9 +158,7 @@ h2 {
 
 
 
-
-
-
+/********ANIMATIONS*********/
 
 @keyframes animate-shadow {
     
