@@ -46,13 +46,25 @@ ul {
     gap: 1em;
 }
 
-ul li a {
+.about-us, .supliments, .contact {
+    position: relative;
     font-size: clamp(0.8rem, 1.25rem, 1.3rem);
     color: #f9faf8;
 }
 
-ul li a:hover {
-    text-decoration: underline;
+.about-us:after, .supliments:after, .contact:after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-image:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,210,255,1) 49%, rgba(56,130,246,1) 100%);
+    transition: 0.3s;
+}
+
+.about-us:hover:after, .supliments:hover:after, .contact:hover:after {
+    width: 100%;
 }
 
 .main-title {
@@ -142,6 +154,7 @@ h2 {
     font-weight: 700;
 }
 
+/******QUOTE SECTION*****/
 
 
 
