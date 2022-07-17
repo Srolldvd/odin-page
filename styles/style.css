@@ -100,16 +100,17 @@ h1 {
     margin-bottom: 1em;
 }
 
-.header_btn {
+.sign_up {
     font-size: 1.5rem;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 0.2em 0.5em;
+    padding: 0.15em 0.5em;
+    padding-bottom: 0.25em;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.header_btn:hover {
+.sign_up:hover {
     background-color: #2160c5;
 }
 
@@ -130,7 +131,6 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 2%;
-
 }
 
 .flex-items {
@@ -186,13 +186,35 @@ figure {
 }
 
 
+/********SIGN UP SECTION*********/
 
+.sign_up-section {
+    padding: 5em;
+}
 
+.sign_up-container {
+    width: 70%;
+    margin: 0 auto;
+    background-color:#3882f6;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
 
+}
 
+.main-btn {
+border: 2px solid #f9faf8;
+}
 
+.sign_up-header {
+    color: #f9faf8;
+}
 
-
+.sign_up-txt {
+    color: #f9faf8;
+}
 
 /********ANIMATIONS*********/
 
