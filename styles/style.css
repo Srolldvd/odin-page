@@ -147,7 +147,7 @@ h2 {
 .flex-label {
     color: #1f2937;
     text-align: center;
-    font-size: clamp(0.8rem, 0.7vw + 0.4rem, 1.1rem);
+    font-size: clamp(1rem, 0.7vw + 0.4rem, 1.1rem);
 }
 
 .items-name {
@@ -156,11 +156,34 @@ h2 {
 
 /******QUOTE SECTION*****/
 
+.quote-section {
+min-width: 100%;
+background-color: #e5e7eb;
+margin-top: 5em;
+ display: flex;
+align-items: center;
+padding: 7%;
+}
+
+.quote-txt  {
+    font-size: clamp(1.5rem, 0.7vw + 1rem ,2.25rem);
+    color: #1f2937;
+    font-style: italic;
+    margin-top: 1.5em;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 
-
-
-
+.quote-src {
+    font-size: clamp(1.5rem, 0.7vw + 1rem ,2.25rem);
+    color: #1f2937;
+    text-align: right;
+}
 
 
 
